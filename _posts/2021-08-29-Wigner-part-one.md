@@ -15,7 +15,7 @@ It is indeed very hard (as a novice) to decide from where to begin. Let me start
     <li style="font-size:1.2em">The diagonal entries are independent and identically distributed (i.i.d.) and the entries in the lower triangle are also i.i.d and also independent of the diagonal entries.</li>
     <li style="font-size:1.2em">The expected values of he squares of entries are finite, i.e. $\mathbb{E}\left(Y_{ij}^{2}\right) < \infty$.</li>
 </ul>
-Next, let us learn some matrix ensembles. 
+Next, let us learn about some matrix ensembles. (<em>to be continued...</em>)
 
 <!--$$
 \begin{align*}
