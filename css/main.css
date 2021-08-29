@@ -1,10 +1,11 @@
 body {
     margin: 0px auto;
     width: 65%;
+    font-size: 1em; /*sets the general font size...might be better to define div.a div.b div.c separately for different font size classes*/
 }
 a {
     text-decoration: none;
-    color: #403891FF;
+    color: rgb(40, 64, 200);
 }
 a:hover {
     text-decoration: underline;

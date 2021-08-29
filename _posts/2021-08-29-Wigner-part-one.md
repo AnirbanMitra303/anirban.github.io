@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Random Matrix Theory"
+subtitle: "The beautiful world of Wigner"
+date: 2021-08-29
+#googlewebfonts: Gloria+Hallelujah
+---
+
+<!--<div style="text-align: justify"> -->
+My first encounter with Wigner's name was when I was suggested to read the Wigner-Ville distribution and Gabor transform during my brief work on a signal processing project three years back. The project was short and I did not care to make any in-depth venture into Wigner's work. A couple years after that I had started to read on random matrix perturbations when I started come across terms such as **Wigner matrix**, **Wigner's surmise**, **Wigner semi-circle law**, and so on. Now this piqued my interest because I had heard of Wigner before. Upon looking up the Wikipedia page I found that Eugene Wigner was a physicist (well, primarily) and a Nobel laureate (1963)! <br>
+Only recently I had the pleasure of coming across the <em>The Oxford Handbook of Random Matrix Theory</em>, and I am so very thankful to myself for digging on this subject in our library catalogue. So, as I read along, start to understand the origins and implications  of Random Matrix Theory (RMT) (and get my mind blown), I will continue writing on this. This is such an ocean of knowledge, I will be extremely happy if I can digest even a drop of it.<br>  
+It is indeed very hard (as a novice) to decide from where to begin. Let me start by defining some matrices and matrix ensembles. Let us say $$\mathbf{Y}$$ is an $$n$$-dimensional symmetric matrix with the $$(i,j)$$-th entry denoted by $$Y_{ij}$$. $$\mathbf{Y}$$ is a Wigner matrix if it satisfies the following conditions:
+<ul>
+    <li style="font-size:1.2em">The entries are independent upto symmetry. That is $Y_{ij}$ are independent for all $1 \le i\le j \le n$.</li>
+    <li style="font-size:1.2em">The diagonal entries are independent and identically distributed (i.i.d.) and the entries in the lower triangle are also i.i.d and also independent of the diagonal entries.</li>
+    <li style="font-size:1.2em">The expected values of he squares of entries are finite, i.e. $\mathbb{E}\left(Y_{ij}^{2}\right) < \infty$.</li>
+</ul>
+Next, let us learn some matrix ensembles. 
+
+<!--$$
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$-->
+<!--</div>-->
