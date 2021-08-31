@@ -3,9 +3,9 @@ body {
     width: 75%;
     font-size: 1em; /*sets the general font size...might be better to define div.a div.b div.c separately for different font size classes*/
 }
-.text-justify {
+.text-justify {/*not working*/
     text-align: justify;
-  }/*not working*/
+  }
 a {
     text-decoration: none;
     color: rgb(40, 64, 200);
@@ -17,9 +17,11 @@ a:hover {
     /*background-color: #e7dbdb;*/
 }
 /* selected link check if working*/
+/*
 a.active {
-    color: #1F968BFF; /*not working*/
+    color: #1F968BFF;
   }
+*/
 /*new copied stuff start
 .navbar {
     position: fixed;
