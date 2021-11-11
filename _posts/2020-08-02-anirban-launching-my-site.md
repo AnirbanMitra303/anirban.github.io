@@ -12,5 +12,5 @@ P.S. I realize that I am writing my first blog, on the day <a href="https://ww2.
 <em>Edit 2:</em> I add this final edit of this post today, August 11. My website is now in a good shape. I have succesfully organized the CV page and will try to get started with my first stats blog soon. Feeling accomplished! 
 <br><br>
 <em>Edit 3:</em> Introduced Mathjax on 2021-08-29. Inline mathjax was not working hence needed to be customized using answers in this 
-<a href="https://tex.stackexchange.com/questions/27633/mathjax-inline-mode-not-rendering">stackoverflow question</a>. In the default.html file of the original post a script needs to be added before head to do this. Moreover I have added colors to denote ative page following this <a href="https://www.youtube.com/watch?v=l9niaFJh8Gs">youtube tutorial</a>.
+<a href="https://tex.stackexchange.com/questions/27633/mathjax-inline-mode-not-rendering">stackoverflow question</a>. In the default.html file of the original post a script needs to be added before head to do this. Moreover I have added colors to denote active page following this <a href="https://www.youtube.com/watch?v=l9niaFJh8Gs">youtube tutorial</a>.
 <!--</div>-->
