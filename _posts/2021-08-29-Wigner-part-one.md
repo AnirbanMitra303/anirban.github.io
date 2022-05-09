@@ -25,10 +25,10 @@ $$
 
 $$Z_{GE}$$ is the normalizing constant which depends on the type of ensemble. Three types of ensembles are typically considered: Gaussian Orthogonal Ensemble (GOE), Gaussian Unitary Ensemble (GUE) and Gaussian Simplectic Ensemble (GSE). So the density is essentially proportional to an exponent. Now the exponent depends on the term $$\beta$$, called the Dyson index which takes values $$1$$ for GOE, $$2$$ for GUE and $$4$$ for GSE. (OH-RMT has its foreword written by Freeman Dyson!) 
 <ul>
-    <li style="font-size:1.2em"> GUE is defined for Hermitian matrices ($H_{ij} = \overline{H_{ji}}$) with $H_{ij} \sim \mathcal{N}(0,\frac{1}{2}) + i \mathcal{N}(0,\frac{1}{2})$ for $i<j$ and $H_{ii} \sim \mathcal{N}(0,1)$.</li>
-    <li style="font-size:1.2em"> GOE is defined for real symmetric matrices ($H_{ij} = H_{ji}$) with $H_{ij} \sim \mathcal{N}(0,1)$ for $i<j$ and $H_{ii} \sim \sqrt{2}\mathcal{N}(0,1)$.</li>
-    <li style="font-size:1.2em"> GSE is defined for quaternionic Hermitian matrices with $H_{ij} \sim \mathcal{N}(0,\frac{1}{2}) + i \mathcal{N}(0,\frac{1}{2})$ for $i<j$ and $H_{ii} \sim \mathcal{N}(0,1)$.</li>
+    <li style="font-size:1.2em"> GUE is defined for Hermitian matrices ($H_{ij} = \overline{H_{ji}}$) so that $\mathbf{H} = \frac{\mathbf{A}+\overline{\mathbf{A}}}{\sqrt{2}}$ with $A_{ij} \sim \mathcal{N}(0,\frac{1}{2}) + i \mathcal{N}(0,\frac{1}{2})$ for $i\neq j$ and $A_{ii} \sim \mathcal{N}(0,1)$.</li>
+    <li style="font-size:1.2em"> GOE is defined for real symmetric matrices ($H_{ij} = H_{ji}$) so that $\mathbf{H} = \frac{\mathbf{A}+\mathbf{A}^{\top}}{\sqrt{2}}$ with $A_{ij} \sim \mathcal{N}(0,1)$ for $i\neq j$ and $A_{ii} \sim \sqrt{2}\mathcal{N}(0,1)$.</li>
+    <li style="font-size:1.2em"> GSE is defined for quaternionic Hermitian matrices $\mathbf{H}$. Quaternions are basically extension of the complex number system and just as in GUE the off-diagonal entries are associated with one real and one imaginary part, in GSE it will one real element and three quaternions.</li>
 </ul>
-The Dyson index basically counts the number of real elements associated with each entry of the matrix. <em>to be continued</em>
+The Dyson index basically counts the number of real elements associated with each entry of the matrix. <a href="/blog/2022/05/09/Wigner-part-two">continued here</a>
 {: .text-justify}
 <!--</div>-->
