@@ -1,0 +1,8 @@
+I"�<!--<div style="text-align: justify" style="font-size:1.2em">-->
+<p>Nearly a year has passed since I continued writing. I read some, but exams came and went and other stuff made me too preoccupied to make a coherent write up. By now I have forgotten a lot of what story I wanted to tell. I also run the risk of copying or plagiarising from different sources like Wikipedia, but mainly from OH-RMT. While blogs are supposed to be for sharing one’s original thoughts, I think I will give myself a break here and just say that I am writing this to trach myself, and to create a resource for my future self.<br />
+I ended the <a href="/blog/2021/08/29/Wigner-part-one">previous blog</a> by briefly stating the Gaussian ensembles. One can easily notice that they are special cases of Wigner matrices. It would also make sense to signify the previously stated Dyson index (in context of probability density) to the eigen value distribution of Gaussian ensembles. I will now shift my focus only to GOE, becasue it serves my learning purpose for now. GUE might also have been of interest, but GSE is out of my brain’s reach right Suppose \(\lambda_{1},\lambda_{2},\cdots,\lambda_{n}\) are the eigen values of an \(n\)-dimensional Gaussian ensemble. Then the joint probability distribution of the eigen values is given by</p>
+
+\[\begin{align*}
+  f(\lambda_{1},\lambda_{2},\cdots,\lambda_{n}) = \frac{1}{Z_{GE}^{'}}\prod_{l=1}^{n}\exp^{\beta \lambda_{l}^{2}/4}
+\end{align*}\]
+:ET
