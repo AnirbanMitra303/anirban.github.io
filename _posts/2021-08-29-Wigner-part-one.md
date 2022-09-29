@@ -14,6 +14,7 @@ It is indeed very hard (as a novice) to decide from where to begin. Let me start
     <li style="font-size:1.2em">The entries are independent upto symmetry. That is $W_{ij}$ are independent for all $1 \le i\le j \le n$.</li>
     <li style="font-size:1.2em">The diagonal entries are independent and identically distributed (i.i.d.) and the entries in the lower triangle are also i.i.d and also independent of the diagonal entries.</li>
     <li style="font-size:1.2em">The expected values of the squares of entries are finite, i.e. $\mathbb{E}\left(W_{ij}^{2}\right) < \infty$.</li>
+    <li style="font-size:1.2em">All entries are centered.</li>
 </ul>
 Next, let us learn about some matrix ensembles, more specifically Gaussian ensembles. The name <em>Gaussian ensemble</em> suggest that it has something to do with the Gaussian or Normal distribution. We will see that in a bit, but why "ensembles"? Well, to study asymptotics (or convergence) we most obviously need the number of "virtual" copies to be large or in this case we need the dimension of matrix to be large. The entries of a Gaussian ensemble, $$\mathbf{H}_{n}$$ (the subscript $$n$$ denotes the dimension of the matrix as well as hinting at the fact that a growing $$n$$ is used to study asymptotics), are independent upto symmetry and have the following probability density: 
 
